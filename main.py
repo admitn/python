@@ -16,5 +16,5 @@ arr.append(data2.values())
 with open('test.csv', 'w') as f:
     csv_wr = csv.writer(f)
     csv_wr.writerow(data)
-    for w in arr:
-        csv_wr.writerow(w)
+    for i in arr:
+        csv_wr.writerow(i)
